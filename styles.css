@@ -5,11 +5,15 @@
 
 .prop-name{
   text-align:center;
-  color: var(--primary)
+  color: var(--primary);
 }
 
-.prop-name p{
+.prop-name > p{
   color:initial;
+}
+
+.prop-name > h1{
+  font-size:3.2em;
 }
 
 .card{
@@ -38,8 +42,39 @@
 }
 
 
+.roomsinfo{
+  margin: 20px;
+  padding: 10px;
 
+}
 
+.roomsinfo > h3{
+  text-align: center;
+  font-size:2em;
+  text-decoration: underline;
+}
+
+.amenities{
+  background-image: url(background.png);
+  margin-bottom: 150px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+
+}
+
+.amli{
+  list-style:none;
+  display: grid;
+  grid-gap:10px;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.amenities > h3{
+  text-align: center;
+  font-size:2em;
+  text-decoration: underline;
+
+}
 
 
 
