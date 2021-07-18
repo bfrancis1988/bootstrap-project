@@ -1,0 +1,63 @@
+:root{
+  --primary: #33cccc;
+  --shadow: 5px 5px 10px
+}
+
+.prop-name{
+  text-align:center;
+  color: var(--primary)
+}
+
+.prop-name p{
+  color:initial;
+}
+
+.card{
+  margin-top: 25px;
+  margin-bottom:100px;
+  box-shadow: var(--shadow);
+}
+
+.cu-title{
+  text-align:center;
+  color: var(--primary);
+   text-decoration: underline;
+   margin-top:50px;
+}
+
+.contact-map{
+  margin-top:50px;
+  display:grid;
+  grid-gap:20px;
+  grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+  border: solid;
+  padding:10px;
+  background-color: #d9d9d9;
+  box-shadow: var(--shadow);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color: black;
+  margin:10px;
+  padding: 10px;
+  color:white;
+  position: fixed;
+  bottom:0px;
+  width:100%;
+  text-align:center;
+  margin-top:200px;
+}
